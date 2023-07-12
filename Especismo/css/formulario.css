@@ -1,0 +1,144 @@
+
+body {
+    display: grid;
+    place-items: center;
+    background-color: #f6f9ff;
+}
+
+/*QUESTÃO 1*/
+
+
+
+.pergunta1 {
+    margin: 0 auto;
+    width: fit-content ;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+/*FIM QUESTÃO 1*/
+
+/*QUESTÃO 2*/
+.pergunta2 {
+    margin: 0 auto;
+    width: fit-content ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 30px;
+}
+/*FIM QUESTÃO 2*/
+
+/*QUESTÃO 3*/
+.pergunta3 {
+    margin: 0 auto;
+    width: fit-content ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 20px;
+}
+/*FIM QUESTÃO 3*/
+
+/*QUESTÃO 4*/
+.pergunta4 {
+    margin: 0 auto;
+    width: fit-content ;
+    display: flex;
+    flex-direction: column;
+}
+/*FIM QUESTÃO 4*/
+
+/*QUESTÃO 5*/
+.pergunta5 {
+    margin: 0 auto;
+    width: fit-content ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 60px;
+}
+/*FIM QUESTÃO 5*/
+
+/*QUESTÃO 6*/
+.pergunta6 {
+    margin: 0 auto;
+    width: fit-content ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 5px;
+}
+/*FIM QUESTÃO 6*/
+
+/*QUESTÃO 7*/
+.pergunta7 {
+    margin: 0 auto;
+    width: fit-content ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10px;
+}
+/*FIM QUESTÃO 7*/
+
+/*QUESTÃO 8*/
+.pergunta8 {
+    margin: 0 auto;
+    width: fit-content ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 30px;
+}
+/*FIM QUESTÃO 8*/
+
+/*QUESTÃO 9*/
+.pergunta9 {
+    margin: 0 auto;
+    width: fit-content ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 110px;
+
+}
+/*FIM QUESTÃO 9*/
+
+/*QUESTÃO 10*/
+.pergunta10 {
+    margin: 0 auto;
+    width: fit-content ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 60px;
+}
+/*FIM QUESTÃO 10*/
+
+/*BOTÃO*/
+.botao {
+    margin: 0 auto;
+    width: fit-content ;
+    background-color: rgb(40, 40, 151);
+    border-color: transparent;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 50px;
+}
+/*FIM BOTÃO*/
+
+
+.container {
+    transition: background-color 200ms cubic-bezier(0,0,0.2,1);
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    padding: 24px;
+    page-break-inside: avoid;
+    word-wrap: break-word;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
